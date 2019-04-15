@@ -1,6 +1,6 @@
-# Data Lovers
+# **Data Lovers**
 
-## Índice
+## **Índice**
 
 * [Preámbulo](#preámbulo)
 * [Descripción](#resumen-del-proyecto)
@@ -15,7 +15,7 @@
 
 ***
 
-## Preámbulo
+## **1. Preámbulo**
 
 Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
 el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
@@ -34,7 +34,7 @@ izquierda se puede construir una interfaz amigable y entendible por el usuario.
 \* Puedes ver el datalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
 y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
 
-## Resumen del proyecto
+## **2. Resumen del proyecto**
 
 En este proyecto **construirás una _página web_ para visualizar un
 _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
@@ -51,7 +51,7 @@ ayude a interactuar y entender mejor esos datos.
 
 Estos son datos que te proponemos:
 
-* Indicadores de desarrollo del Banco Mundial de algunos países (Brasil, Chile, 
+* [Banco Mundial](src/data/worldbank/worldbank.json) Indicadores de desarrollo del Banco Mundial de algunos países (Brasil, Chile, 
   México y Perú). Estos datos incluyen indicadores demográficos, económicos y 
   comerciales.
 * [Pokémon](src/data/pokemon/pokemon.json):
@@ -78,17 +78,7 @@ por ejemplo, si tenemos una colección que representa a un grupo de personas,
 y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
 podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
 
-
-## Consideraciones generales
-
-* Este proyecto se debe resolver en duplas.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: El proyecto dura 4
- semanas, trabaja con sprints 
-y planificando tus tareas.
-
-## Objetivos de aprendizaje
+## **3. Objetivos de aprendizaje**
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
@@ -114,24 +104,36 @@ Dicho en palabras sencillas, aprenderás a:
 * Entender los beneficios y complejidades de **trabajar en equipo** en un
   ambiente de incertidumbre.
 
-## Parte Obligatoria
+## **4. Consideraciones generales**
+
+* Este proyecto se debe resolver en duplas.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
+* Tiempo para completarlo: El proyecto dura 4
+ semanas, trabaja con sprints 
+y planificando tus tareas.
+* La división y organización del trabajo debe permitir, sin excepciones, que **cada integrante** del equipo practique el aprendizaje de todo lo involucrado en **cada historia**. No se dividan el trabajo como en una fábrica.
+* Antes de comenzar, conversen sobre cómo le fue a cada una en el proyecto anterior para que puedan entender mejor cómo organizarse. No caigan en el error de cada una hacer lo que ya sabe bien cómo hacer. Aprovechen la oportunidad de hacer lo que no saben bien. Acá estás para aprender, no para "entregar" proyectos solamente.
+* Una vez que hayan definido y priorizado sus Historias de Usuario, solamente podrán trabajar en una por vez, no pueden avanzar a la siguiente sin haber completado la anterior. La historia se completa cuando se cumplen **todos** sus Criterios de Aceptación + **toda** su Definición de Terminado.
+
+## **5. Criterios de Aceptación Mínimos del Proyecto**
 
 Los criterios para considerar que has completado este proyecto son:
 
-### Definición del producto
+### **5.1 Definición del producto**
 
 Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
 contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
 el problema (o problemas) que tiene tu usuario.
 
-### Historias de usuario
+### **5.2 Historias de usuario**
 
 Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
 de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
 todo lo que el usuario necesita hacer/ver. Asegúrate de incluir una definición
 de terminado (_definition o done_) para cada una.
 
-### Diseño de la Interfaz de Usuario
+### **5.3 Diseño de la Interfaz de Usuario**
 
 #### Prototipo de baja fidelidad
 
@@ -163,7 +165,7 @@ en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
 qué problemas de usabilidad detectaste a través de los tests y cómo los
 mejoraste en tu propuesta final.
 
-### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
+### **5.4 Implementación de la Interfaz de Usuario (HTML/CSS/JS)**
 
 Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
 Como mencionamos, **no** es necesario que construyas la interfaz tal como la
@@ -183,7 +185,7 @@ Como mínimo, tu implementación debe:
 Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
 siga los fundamentos de _visual design_.
 
-### Pruebas unitarias
+### **5.5 Pruebas unitarias**
 
 El _boilerplate_ de este proyecto no incluye pruebas unitarias, pero esperamos
 que escribas tu propias pruebas unitarias para las funciones encargadas de
@@ -218,7 +220,7 @@ e independientes del DOM. Estas funciones serán después usadas desde el archiv
 `src/main.js`, al cargar la página, y cada vez que el usuario interactúe (click,
 filtrado, ordenado, ...).
 
-## Parte Opcional (Hacker edition)
+## **6. Parte Opcional (Hacker edition)**
 
 Features/características extra sugeridas:
 
@@ -231,7 +233,7 @@ Features/características extra sugeridas:
   o [Google Charts](https://developers.google.com/chart/).
 * 100% Coverage
 
-## Consideraciones técnicas
+## **7. Consideraciones técnicas**
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
@@ -335,20 +337,19 @@ asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_A
 Tendrás también que completar las pruebas unitarias de las funciones
 implementadas en el archivo `data.js`.
 
-## Evaluación
-
+## **8. Evaluación**
 Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
 para ver la descripción detallada de cada habilidad y cada nivel. Esta es una
 lista de todas las habilidades involucradas en este proyecto y que evaluaremos
 cuando lo completes:
 
-### General
+### **General**
 
 | Característica/Habilidad |
 |--------------------------|
 | Completitud |
 
-### Tech
+### **Tech**
 
 | Habilidad |
 |-----------|
@@ -372,14 +373,14 @@ cuando lo completes:
 | Lógica |
 | Arquitectura |
 
-### UX
+### **UX**
 
 | Habilidad |
 |-----------|
 | User Centricity |
 | Visual Design |
 
-### Habilidades Blandas
+### **Habilidades Blandas**
 
 | Habilidad |
 |-----------|
@@ -394,7 +395,7 @@ cuando lo completes:
 
 ***
 
-## Pistas sobre cómo empezar a trabajar en el proyecto
+## **Pistas sobre cómo empezar a trabajar en el proyecto**
 
 Antes de empezar a escribir código, debes definir qué deberá hacer el producto
 en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
@@ -471,15 +472,15 @@ compañera:
 
 ***
 
-## Contenido de referencia
+## **10. Contenido de referencia**
 
-### Diseño de experiencia de usuario (User Experience Design)
+### **Diseño de experiencia de usuario (User Experience Design)**
 
 * Investigación con usuario
 * [Principios de diseño visual](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/diseno-visual)
 
 
-### Desarrollo Front-end
+### **Desarrollo Front-end**
 
 * [Unidad de testing en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/scl-2019-03-bc-core-common-core-scl009/courses/javascript/11-testing/00-opening)
 * [Unidad de arreglos en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/scl-2019-03-bc-core-common-core-scl009/courses/javascript/04-arrays/01-arrays)
@@ -497,7 +498,7 @@ compañera:
 * [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [json.org](https://json.org/json-es.html)
 
-### Herramientas
+### **Herramientas**
 
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
@@ -506,7 +507,7 @@ compañera:
 
 ***
 
-## Checklist
+## **Checklist**
 
 * [ ] Usa VanillaJS.
 * [ ] No hace uso de `this`.

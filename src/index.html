@@ -1,18 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-  </body>
-</html>
+<head>
+  <meta charset="utf-8">
+  <title>STEAM - Data Lovers</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark p-4">
+      <img src="https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016" width="176" height="44">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="reset" class="clear"> Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://steamcommunity.com/?l=spanish"> Steam Community </a>
+          </li>
+        </div>  
+      </nav>
+    </header>
+    <section class="mt-5 pt-5">
+      <div class="row">
+        <div class="col-lg-1 "></div>
+        <div class="col-lg-5">
+          <div class="form-group">
+            <label for="fuenteNoticia">Fuente de Noticias</label>
+            <select id="feedlabel" class="form-control">
+              <option value="seleccionar">Fuente Noticia</option>
+              <option value="option1">TF2 Blog</option>
+              <option value="option2">Product Update</option>
+              <option value="option3">PC Gamer</option>
+              <option value="option4">Eurogamer</option>
+              <option value="option5">Rock, Paper, Shotgun</option>
+            </select>
+            <small id="msje" class="form-text text-muted">Podrás visualizar los distintos medios de información.</small>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="form-group">
+            <label for="orderNews">Ordenar por</label>
+            <select id="orderdata" class="form-control">
+              <option value="option6">Ordenar por</option>
+              <option value="date">Newest</option>
+              <option value="date">Oldest</option>
+            </select> 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
+          <div id="count"></div>
+        </div>
+      </div>
+      <div id="root"></div>
+    </section> 
+    <footer class="container-fluid text-center">
+      <p>
+       &copy; Paula Estay  - Laboratoria 2019
+     </p>
+   </footer>
+
+   <script src="./data/steam/steam.js"></script>
+   <script src="data.js"></script>
+   <script src="main.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ </body>
+ </html>
+
+
+
